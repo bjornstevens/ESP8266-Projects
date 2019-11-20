@@ -15,7 +15,7 @@ RCSwitch mySwitch = RCSwitch();
 
 ESP8266WebServer server(80);
 
- const char * domoticz_server = "192.168.179.248"; //Domoticz port
+ const char * domoticz_server = "192.168.1.1"; //Domoticz IP
  int port = 8080; //Domoticz port
 
 // Network information
